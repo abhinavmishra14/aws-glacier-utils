@@ -1,0 +1,16 @@
+**********************
+THIRD PARTY COMPONENTS
+**********************
+
+===Apache 2.0 - License====
+commons-*   http://commons.apache.org/
+ 
+===MIT License===
+slf4j-*   http://www.slf4j.org/
+
+===Eclipse Public License====
+junit-*  http://junit.org/
+
+======Amazon SDK==========
+
+aws-java-*   http://aws.amazon.com/sdk-for-java/ - AWS SDK for Java Copyright 2010-2014 Amazon.com, Inc. or its affiliates. All Rights Reserved.
