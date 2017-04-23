@@ -12,12 +12,12 @@ You can use default constructor initialization if you have access keys in aws pr
 (generally created user use home directory e.g. 'C:\Users\AbhiKMishra\.aws') or in environment variables. Additionally you can keep a property file named as 'AwsCredentials.properties' in class path as well. You can find a sample under src/main/resources directory.
 
 **Example:** *GlacierArchiveService arcService = new GlacierArchiveServiceImpl();*  
-**Example:** *GlacierRetrievalService arcService = new GlacierRetrievalServiceImpl();*  
-**Example:** *GlacierVaultService arcService = new GlacierVaultServiceImpl();*
+**Example:** *GlacierRetrievalService retrivalService = new GlacierRetrievalServiceImpl();*  
+**Example:** *GlacierVaultService vaultService = new GlacierVaultServiceImpl();*
 
 ####For using glacier services using keys, create the instance using parameterized constructor. 
 
 
 **Example:** *GlacierArchiveService arcService = new GlacierArchiveServiceImpl("accessKey","secretKey");*  
-**Example:** *GlacierRetrievalService arcService = new GlacierRetrievalServiceImpl("accessKey","secretKey");*  
-**Example:** *GlacierVaultService arcService = new GlacierVaultServiceImpl("accessKey","secretKey");*
+**Example:** *GlacierRetrievalService retrivalService = new GlacierRetrievalServiceImpl("accessKey","secretKey");*  
+**Example:** *GlacierVaultService vaultService = new GlacierVaultServiceImpl("accessKey","secretKey");*
