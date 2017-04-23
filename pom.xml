@@ -6,7 +6,6 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Amazon Glacier Utility</name>
-	<description>This utility can be used to archive and retrieve files or folders to amazon glacier vault</description>
 	<url>https://github.com/abhinavmishra14/aws-glacier-utils</url>
 
 	<properties>
@@ -546,4 +545,5 @@
 			</build>
 		</profile>
 	</profiles>
+	<description>This utility can be used to archive and retrieve files or folders to amazon glacier vault and perform various other operations related to glacier.</description>
 </project>

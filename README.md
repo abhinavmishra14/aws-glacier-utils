@@ -1,6 +1,6 @@
 ## aws-glacier-utils
 
-##This utility can be used to archive and retrieve files or folders to amazon glacier vault.
+##This utility can be used to archive and retrieve files or folders to amazon glacier vault and perform various other operations related to glacier.
 
 
 ####Note: By default test cases will be skipped. Use access keys to build in order to pass the test cases and use skip test parameter (-Dmaven.test.skip=false). To force run tests: e.g. mvn clean install -Dmaven.test.skip=false
